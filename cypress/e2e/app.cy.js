@@ -112,6 +112,8 @@ describe('Exporting table', () => {
 
 describe('flagged-activity Tab Test', () => {
   it('Page loads successfully', () => {
+    // Manually force reload of correct URL Since we have testIsolation: false in the config file
+    cy.visit('/');
     cy.visit('/flagged-activity');
   });
 });

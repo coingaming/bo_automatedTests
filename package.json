@@ -8,7 +8,8 @@
   },
   "scripts": {
     "cypress:web": "npx cypress open",
-    "cypress:headless": "npx cypress run --browser electron"
+    "cypress:headless": "npx cypress run --browser electron",
+    "cypress:record": "npx cypress run --record --key c0520a37-0f02-43be-8d7d-c78f740590ea"
   },
   "keywords": [],
   "author": "",
